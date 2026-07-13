@@ -1,0 +1,327 @@
+/* ============================================================
+   «Журнал» — макеты дизайна. Чистый CSS, без фреймворков.
+   Бумага и чернила, один тёплый акцент, типографика — герой.
+   Шрифты: fonts.css (самохост Golos Text + PT Serif).
+   ============================================================ */
+
+:root {
+  --paper: #faf9f5;
+  --ink: #14120f;
+  --ink-soft: #55524c;
+  --line: #e4e1d8;
+  --accent: #c8361f;
+
+  --font-head: 'Golos Text', 'Helvetica Neue', Arial, sans-serif;
+  --font-text: 'PT Serif', Georgia, 'Times New Roman', serif;
+
+  --measure: 640px; /* ~70 знаков PT Serif 19px */
+  --page: 1136px;
+  --gutter: clamp(20px, 4vw, 48px);
+}
+
+/* ---------- База ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 19px;
+  line-height: 1.65;
+  font-feature-settings: 'kern' 1, 'liga' 1;
+  text-rendering: optimizeLegibility;
+}
+
+img, svg { max-width: 100%; height: auto; display: block; }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(200, 54, 31, 0.55);
+  text-underline-offset: 0.15em;
+  transition: color 0.15s ease;
+}
+a:hover { color: var(--accent); }
+
+::selection { background: rgba(200, 54, 31, 0.18); }
+
+h1, h2, h3 {
+  font-family: var(--font-head);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.page {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ---------- Служебный текст ---------- */
+.meta {
+  font-family: var(--font-head);
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--ink-soft);
+}
+
+.rubric-label {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+}
+.rubric-label:hover { text-decoration: underline; }
+
+/* ---------- Шапка ---------- */
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.brand { text-decoration: none; display: flex; align-items: baseline; gap: 14px; }
+.brand-name {
+  font-family: var(--font-head);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.brand:hover .brand-name { color: var(--accent); }
+.nav { display: flex; gap: 26px; flex-wrap: wrap; }
+.nav a {
+  font-family: var(--font-head);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav a:hover, .nav a.is-active { color: var(--accent); }
+.nav a.nav-dim { font-weight: 400; color: var(--ink-soft); }
+.nav a.nav-dim:hover { color: var(--accent); }
+
+/* ---------- Обложки-заглушки ---------- */
+.cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #eceae1;
+  border-radius: 4px;
+}
+.cover--hero { aspect-ratio: 16 / 8; }
+a.cover { display: block; }
+
+/* ---------- «Герой» на главной ---------- */
+.hero { padding: 8px 0 56px; }
+.hero .rubric-label { display: inline-block; margin: 14px 0 10px; }
+.hero-title {
+  font-size: clamp(29px, 3.8vw, 52px);
+}
+.hero-title a, .card h3 a { text-decoration: none; }
+.hero-title a:hover, .card h3 a:hover { color: var(--accent); }
+.hero-lead {
+  font-size: 18.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  max-width: 576px;
+  margin: 12px 0 0;
+}
+.hero .meta { margin-top: 14px; }
+
+/* ---------- Сетка плиток ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 40px;
+  border-top: 1px solid var(--line);
+  padding-top: 48px;
+  padding-bottom: 8px;
+}
+.card { display: flex; flex-direction: column; }
+.card .rubric-label { display: inline-block; margin: 14px 0 8px; }
+.card h3 { font-size: 22px; line-height: 1.15; }
+.card-lead {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 8px 0 0;
+}
+.card .meta { margin-top: 12px; }
+
+/* ---------- Страница рубрики ---------- */
+.rubric-head { padding: 8px 0 40px; }
+.rubric-title {
+  font-size: clamp(38px, 6vw, 67px);
+  color: var(--accent);
+}
+.rubric-about {
+  font-size: 18.5px;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+  margin: 14px 0 0;
+}
+
+/* Виджет «Рынок сегодня» */
+.market {
+  border-top: 3px solid var(--ink);
+  padding-top: 14px;
+  margin-bottom: 48px;
+}
+.market-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.market-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+.stat { display: flex; flex-direction: column; gap: 2px; }
+.stat-value {
+  font-family: var(--font-head);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.spark { margin-left: auto; }
+
+/* ---------- Статья ---------- */
+.article-head { padding: 8px 0 0; }
+.article-head .rubric-label { display: inline-block; margin-bottom: 18px; }
+.article-title {
+  font-size: clamp(34px, 5vw, 56px);
+  max-width: 896px;
+}
+.article-lead {
+  font-size: 22px;
+  line-height: 1.5;
+  max-width: var(--measure);
+  margin: 19px 0 0;
+}
+.article-head .meta { margin-top: 21px; }
+.article-cover { margin-top: 40px; max-width: 896px; aspect-ratio: 16 / 8; }
+
+.article-body { max-width: var(--measure); margin-top: 40px; }
+.article-body > * + * { margin-top: 21px; }
+.article-body h2 { font-size: 28px; margin-top: 42px; margin-bottom: -10px; }
+.article-body h3 { font-size: 20px; margin-top: 34px; margin-bottom: -10px; }
+.article-body p { margin: 0; }
+.article-body ul, .article-body ol { padding-left: 27px; margin-bottom: 0; }
+.article-body li + li { margin-top: 9px; }
+.article-body li::marker { color: var(--accent); }
+.article-body blockquote {
+  margin: 38px 0 0;
+  padding: 0 0 0 24px;
+  border-left: 3px solid var(--accent);
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.45;
+}
+.article-body hr {
+  border: 0;
+  margin: 48px auto;
+  text-align: center;
+}
+.article-body hr::before {
+  content: '* * *';
+  font-family: var(--font-head);
+  letter-spacing: 0.5em;
+  color: var(--ink-soft);
+}
+.article-body code {
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 0.85em;
+  background: #f1efe8;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+.article-body pre {
+  background: #f1efe8;
+  border-radius: 6px;
+  padding: 18px 20px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.article-body pre code { background: none; padding: 0; font-size: inherit; }
+
+.tags {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 48px 0 0;
+}
+
+.related { margin-top: 72px; border-top: 1px solid var(--line); padding-top: 32px; }
+.related h2 { font-size: 22px; margin-bottom: 32px; }
+.related .grid { border-top: 0; padding-top: 0; }
+
+/* ---------- Поиск ---------- */
+.search-title { font-size: clamp(38px, 6vw, 67px); padding-top: 8px; }
+.search-form { margin-top: 32px; max-width: var(--measure); }
+.search-input {
+  width: 100%;
+  font-family: var(--font-head);
+  font-size: 22px;
+  padding: 10px 0;
+  border: 0;
+  border-bottom: 3px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+}
+.search-input:focus { outline: none; border-bottom-color: var(--accent); }
+.search-hint { margin-top: 11px; }
+.search-count { margin: 40px 0 0; }
+.search-results { margin-top: 32px; border-top: 0; padding-top: 0; }
+
+/* ---------- Об издании ---------- */
+.about-title { font-size: clamp(38px, 6vw, 67px); padding-top: 8px; }
+.about-body { max-width: var(--measure); margin-top: 40px; }
+.about-body > * + * { margin-top: 21px; }
+.about-body h2 { font-size: 28px; margin-top: 42px; margin-bottom: -10px; }
+.about-body p { margin: 0; }
+
+/* ---------- Подвал ---------- */
+.footer { margin-top: 96px; border-top: 1px solid var(--line); }
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 22px 0 32px;
+}
+.footer-nav { display: flex; gap: 22px; }
+
+/* ---------- Доступность ---------- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ---------- Адаптив: 3 → 2 → 1 ---------- */
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .grid { grid-template-columns: 1fr; gap: 40px; }
+  .masthead { padding-top: 22px; padding-bottom: 22px; }
+  .brand-name { font-size: 24px; }
+  .spark { margin-left: 0; }
+}

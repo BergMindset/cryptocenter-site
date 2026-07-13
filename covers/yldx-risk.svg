@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="">
+  <rect width="1200" height="675" fill="#0d1219"/>
+  <!-- сетка пулов: множество мелких узлов = диверсификация -->
+  <g fill="#00e0d0" opacity="0.22">
+    <!-- генерируем ряды точек -->
+    <g>
+      <circle cx="120" cy="150" r="5"/><circle cx="190" cy="150" r="5"/><circle cx="260" cy="150" r="5"/><circle cx="330" cy="150" r="5"/><circle cx="400" cy="150" r="5"/><circle cx="470" cy="150" r="5"/>
+      <circle cx="120" cy="220" r="5"/><circle cx="190" cy="220" r="5"/><circle cx="260" cy="220" r="5"/><circle cx="330" cy="220" r="5"/><circle cx="400" cy="220" r="5"/><circle cx="470" cy="220" r="5"/>
+      <circle cx="120" cy="290" r="5"/><circle cx="190" cy="290" r="5"/><circle cx="260" cy="290" r="5"/><circle cx="330" cy="290" r="5"/><circle cx="400" cy="290" r="5"/><circle cx="470" cy="290" r="5"/>
+      <circle cx="120" cy="360" r="5"/><circle cx="190" cy="360" r="5"/><circle cx="260" cy="360" r="5"/><circle cx="330" cy="360" r="5"/><circle cx="400" cy="360" r="5"/><circle cx="470" cy="360" r="5"/>
+      <circle cx="120" cy="430" r="5"/><circle cx="190" cy="430" r="5"/><circle cx="260" cy="430" r="5"/><circle cx="330" cy="430" r="5"/><circle cx="400" cy="430" r="5"/><circle cx="470" cy="430" r="5"/>
+      <circle cx="120" cy="500" r="5"/><circle cx="190" cy="500" r="5"/><circle cx="260" cy="500" r="5"/><circle cx="330" cy="500" r="5"/><circle cx="400" cy="500" r="5"/><circle cx="470" cy="500" r="5"/>
+    </g>
+  </g>
+  <!-- один узел с риском подсвечен -->
+  <circle cx="330" cy="290" r="9" fill="#ff2e7e"/>
+  <circle cx="330" cy="290" r="26" fill="none" stroke="#ff2e7e" stroke-width="2" opacity="0.5"/>
+  <!-- щит-контур: защита капитала -->
+  <path d="M760 130 L980 130 L980 330 Q980 470 870 540 Q760 470 760 330 Z"
+        fill="none" stroke="#00e0d0" stroke-width="3"/>
+  <path d="M760 130 L980 130 L980 330 Q980 470 870 540 Q760 470 760 330 Z"
+        fill="#00e0d0" opacity="0.05"/>
+  <!-- три уровня внутри щита = три индекса -->
+  <g stroke="#00e0d0" stroke-width="2" opacity="0.4">
+    <line x1="760" y1="230" x2="980" y2="230"/>
+    <line x1="760" y1="330" x2="980" y2="330"/>
+  </g>
+  <path d="M818 335 l32 34 l70 -78" fill="none" stroke="#00e0d0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="100" y1="600" x2="1100" y2="600" stroke="#00e0d0" stroke-width="2" opacity="0.35"/>
+</svg>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Крипта — Журнал</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead page">
+  <a class="brand" href="index.html">
+    <span class="brand-name">Журнал</span>
+    <span class="meta">крипта · ИИ · биохакинг</span>
+  </a>
+  <nav class="nav" aria-label="Рубрики">
+    <a class="is-active" href="rubrika.html">Крипта</a>
+    <a href="rubrika.html">ИИ</a>
+    <a href="rubrika.html">Биохакинг</a>
+    <a class="nav-dim" href="poisk.html">Поиск</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <header class="rubric-head">
+    <h1 class="rubric-title">Крипта</h1>
+    <p class="rubric-about">Деньги, которые живут в блокчейне: как они устроены, где ломаются и что с ними делать.</p>
+  </header>
+
+  <!-- Виджет «Рынок сегодня»: только живые цифры; нет связи — виджета нет -->
+  <aside class="market" aria-label="Рынок сегодня">
+    <div class="market-head">
+      <span class="rubric-label">Рынок сегодня</span>
+      <span class="meta">по данным Центра SYNERGYS, на 9 июля</span>
+    </div>
+    <div class="market-row">
+      <div class="stat">
+        <span class="stat-value">0,899</span>
+        <span class="meta">Индекс</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">104%</span>
+        <span class="meta">Годовая доходность</span>
+      </div>
+      <svg class="spark" viewBox="0 0 220 44" width="220" height="44" role="img" aria-label="Динамика индекса за 30 дней">
+        <polyline points="0,30 8,26 16,28 24,24 32,18 40,18 48,23 56,27 64,26 72,25 80,31 88,24 96,25 104,24 112,31 120,37 128,34 136,35 144,32 152,36 160,29 168,34 176,34 184,30 192,26 200,22 208,14 220,18"
+          fill="none" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </aside>
+
+  <section class="grid" aria-label="Все материалы рубрики">
+
+    <article class="card">
+      <a class="cover" href="statya.html" aria-hidden="true" tabindex="-1"></a>
+      <a class="rubric-label" href="rubrika.html">Крипта</a>
+      <h3><a href="statya.html">«Не твои ключи — не твои монеты»: как на самом деле работает самостоятельное хранение</a></h3>
+      <p class="card-lead">Криптовалюта не лежит в кошельке — она записана в блокчейне. Кошелёк хранит только ключ.</p>
+      <p class="meta">Редакция · 8 июля 2026 · 4 мин чтения</p>
+    </article>
+
+    <article class="card">
+      <a class="cover" href="statya.html" aria-hidden="true" tabindex="-1"></a>
+      <a class="rubric-label" href="rubrika.html">Крипта</a>
+      <h3><a href="statya.html">Ликвидность простыми словами: почему в DeFi она решает всё</a></h3>
+      <p class="card-lead">Пулы ликвидности заменили биржевой стакан математической формулой. Объясняем, откуда берётся доходность поставщиков ликвидности.</p>
+      <p class="meta">Редакция · 28 июня 2026 · 4 мин чтения</p>
+    </article>
+
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="page footer-inner">
+    <p class="meta">© 2026 Медиа-центр SYNERGYS</p>
+    <nav class="footer-nav meta" aria-label="Служебные ссылки">
+      <a href="ob-izdanii.html">Об издании</a>
+      <a href="#">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

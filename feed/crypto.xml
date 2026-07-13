@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Журнал — Крипта</title>
+    <link>http://localhost:3000</link>
+    <description>Деньги, которые живут в блокчейне: как они устроены, где ломаются и что с ними делать.</description>
+    <language>ru</language>
+    <atom:link href="http://localhost:3000/feed/crypto.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Риск в DeFi — не лотерея, а математика: методология YLDX</title>
+      <link>http://localhost:3000/crypto/metodologiya-yldx-upravlenie-riskom</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/metodologiya-yldx-upravlenie-riskom</guid>
+      <description>В 2022 году из DeFi украли $3.2 млрд — почти 6% всего рынка. Но риск в пуле ликвидности можно посчитать заранее и разложить так, что провал одного пула превращается из катастрофы в царапину. Разбираем методологию, по которой фонд YLDX выбирает пулы, делит капитал и ограничивает потери.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>«Не твои ключи — не твои монеты»: как на самом деле работает самостоятельное хранение</title>
+      <link>http://localhost:3000/crypto/samostoyatelnoe-hranenie</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/samostoyatelnoe-hranenie</guid>
+      <description>Криптовалюта не лежит в кошельке — она записана в блокчейне. Кошелёк хранит только ключ. Разбираем, что это значит на практике и почему одна ошибка при копировании адреса может стоить всех денег.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Ликвидность простыми словами: почему в DeFi она решает всё</title>
+      <link>http://localhost:3000/crypto/likvidnost-prostymi-slovami</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/likvidnost-prostymi-slovami</guid>
+      <description>Пулы ликвидности заменили биржевой стакан математической формулой. Объясняем, как работает автоматический маркетмейкер, откуда берётся доходность поставщиков ликвидности и за что они на самом деле получают комиссию.</description>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Chainlink расширяет CCIP на восемь блокчейнов</title>
+      <link>http://localhost:3000/crypto/post_5pgfrpn</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_5pgfrpn</guid>
+      <description>Chainlink объявила о расширении протокола CCIP на восемь новых блокчейнов</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Aave запускает GHO на Layer 2 сетях Ethereum</title>
+      <link>http://localhost:3000/crypto/post_gbgpv6bz</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_gbgpv6bz</guid>
+      <description>Aave расширил свой стейблкоин GHO на сети Arbitrum, Optimism и Polygon</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Layer 2 Ethereum достигли рекордных $47.8 млрд TVL</title>
+      <link>http://localhost:3000/crypto/post_jrmhmhhg</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_jrmhmhhg</guid>
+      <description>Arbitrum лидирует с $18.2 млрд, Base и Optimism показывают рост 340%</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Arbitrum TVL превысил $18 млрд</title>
+      <link>http://localhost:3000/crypto/post_kccrwyf0</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_kccrwyf0</guid>
+      <description>Arbitrum укрепил позиции лидера Layer 2 с ростом TVL на 23% за две недели</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Arbitrum DAO одобрил $23.4 млн на игровые проекты</title>
+      <link>http://localhost:3000/crypto/post_knbnkqf</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_knbnkqf</guid>
+      <description>Arbitrum запускает крупнейший игровой фонд для развития блокчейн-игр</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Arbitrum: TVL вырос на 15% за 48 часов</title>
+      <link>http://localhost:3000/crypto/post_kxmthtby</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_kxmthtby</guid>
+      <description>Arbitrum показал рост TVL на 15% до $2.8 млрд благодаря миграции DeFi</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Solana DeFi превысил $8 млрд TVL</title>
+      <link>http://localhost:3000/crypto/post_lz1yw780</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_lz1yw780</guid>
+      <description>Экосистема DeFi на Solana достигла $8 млрд TVL впервые с мая 2022 года</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Arbitrum TVL вырос на 23% и достиг $3.2 млрд</title>
+      <link>http://localhost:3000/crypto/post_q3phzbrt</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_q3phzbrt</guid>
+      <description>Arbitrum зафиксировал рост TVL на 23% за неделю, достигнув $3.2 млрд</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Layer 2 Ethereum достигли рекорда $51 млрд TVL</title>
+      <link>http://localhost:3000/crypto/post_rfkczqvj</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_rfkczqvj</guid>
+      <description>Base обогнал Polygon и стал вторым по TVL среди Layer 2 решений Ethereum</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Layer 2 Ethereum превысил $50 млрд TVL</title>
+      <link>http://localhost:3000/crypto/post_y4bdkmd1</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_y4bdkmd1</guid>
+      <description>Экосистема Layer 2 достигла $50 млрд TVL с ростом на 40% за месяц</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>TVL Arbitrum превысил $3.2 млрд</title>
+      <link>http://localhost:3000/crypto/post_ycx31bqr</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_ycx31bqr</guid>
+      <description>Arbitrum достиг $3.2 млрд TVL с ростом на 40% за месяц</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Base интегрирует протокол CCTP для USDC</title>
+      <link>http://localhost:3000/crypto/post_ytvcnxc</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_ytvcnxc</guid>
+      <description>Coinbase Base интегрировала протокол CCTP Circle для кроссчейн переводов USDC</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Solana TVL превысил $9 млрд на фоне роста DeFi</title>
+      <link>http://localhost:3000/crypto/post_zrb8sb0t</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_zrb8sb0t</guid>
+      <description>TVL Solana достиг $9 млрд впервые с 2022 года благодаря институциональному DeFi</description>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Layer 2 Ethereum превысил $50 млрд TVL</title>
+      <link>http://localhost:3000/crypto/post_676xxrgw</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_676xxrgw</guid>
+      <description>TVL решений Layer 2 Ethereum превысил $50 млрд впервые в истории</description>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>Arbitrum достигает $18 млрд TVL в экосистеме</title>
+      <link>http://localhost:3000/crypto/post_6jgxj41w</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_6jgxj41w</guid>
+      <description>TVL Arbitrum превысил $18 млрд, что на 35% больше за месяц</description>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+    <item>
+      <title>TVL Layer 2 Ethereum достиг рекордных $47 млрд</title>
+      <link>http://localhost:3000/crypto/post_fzlxqcp7</link>
+      <guid isPermaLink="true">http://localhost:3000/crypto/post_fzlxqcp7</guid>
+      <description>Заблокированная стоимость в решениях Layer 2 выросла на 23% за месяц</description>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 GMT</pubDate>
+      <category>crypto</category>
+    </item>
+  </channel>
+</rss>
