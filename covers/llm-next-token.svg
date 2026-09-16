@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="">
+  <rect width="1200" height="675" fill="#0d1219"/>
+  <g fill="none" stroke="#00e0d0" stroke-width="3">
+    <rect x="150" y="300" width="120" height="75" rx="8"/>
+    <rect x="310" y="300" width="120" height="75" rx="8"/>
+    <rect x="470" y="300" width="120" height="75" rx="8"/>
+    <rect x="630" y="300" width="120" height="75" rx="8"/>
+  </g>
+  <rect x="790" y="300" width="120" height="75" rx="8" fill="#ff2e7e"/>
+  <g stroke="#00e0d0" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M210 300 C 300 150, 700 150, 845 295"/>
+    <path d="M370 300 C 450 200, 700 200, 843 297"/>
+    <path d="M530 300 C 600 240, 720 240, 840 298"/>
+    <path d="M690 300 C 730 270, 780 270, 838 299"/>
+  </g>
+  <g fill="#00e0d0" opacity="0.35">
+    <circle cx="985" cy="337" r="6"/>
+    <circle cx="1015" cy="337" r="6"/>
+    <circle cx="1045" cy="337" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ПУЛЬС РЫНКА — ЖУРНАЛ</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ---------- Пульс: живая карта рынка ---------- */
+    .pulse-head { padding: 34px 0 6px; display: flex; align-items: baseline; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    .pulse-title { font-size: clamp(26px, 4vw, 46px); font-weight: 700; }
+    .pulse-title .dot { color: var(--lime); animation: blink 1.2s steps(1) infinite; }
+
+    /* Бегущая лента котировок */
+    .ticker-wrap {
+      margin-top: 18px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+      white-space: nowrap;
+      background: rgba(13, 18, 25, 0.7);
+    }
+    .ticker {
+      display: inline-block;
+      padding: 9px 0;
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      animation: crawl 45s linear infinite;
+    }
+    .ticker-wrap:hover .ticker { animation-play-state: paused; }
+    @keyframes crawl { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .ticker b { color: var(--text); font-weight: 600; }
+    .ticker .up { color: #22e59a; }
+    .ticker .down { color: var(--magenta); }
+    .ticker .sep { color: var(--text-soft); margin: 0 14px; }
+
+    /* Сводка */
+    .globals { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 22px; }
+    .g-stat { padding: 14px 18px; }
+    .g-stat .v { font-family: var(--font-mono); font-size: 22px; font-weight: 600; color: var(--text); display: block; line-height: 1.2; }
+    .g-stat .v em { font-style: normal; font-size: 13px; }
+    .g-stat .v .up { color: #22e59a; } .g-stat .v .down { color: var(--magenta); }
+
+    /* Карта-мозаика */
+    .map-panel { margin-top: 22px; padding: 16px; --accent: var(--cyan); }
+    .map-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; padding: 2px 4px 12px; }
+    .treemap { position: relative; width: 100%; height: 560px; }
+    .tile {
+      position: absolute;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 2px; overflow: hidden;
+      border: 1px solid rgba(7, 9, 14, 0.9);
+      font-family: var(--font-mono);
+      color: #eafff6;
+      transition: filter 0.2s ease, transform 0.2s ease;
+      animation: tileIn 0.6s ease backwards;
+      cursor: default;
+    }
+    .tile:hover { filter: brightness(1.35) saturate(1.2); z-index: 2; }
+    @keyframes tileIn { from { opacity: 0; transform: scale(0.96); } }
+    .tile .sym { font-weight: 600; letter-spacing: 0.06em; }
+    .tile .px, .tile .chg { opacity: 0.9; }
+    .tile.t-xs .px, .tile.t-xs .chg { display: none; }
+    .tile.t-xs .sym { font-size: 9px; }
+
+    /* Индекс BERG */
+    .berg { margin-top: 22px; }
+
+    .src-note { margin-top: 14px; }
+    .offline {
+      padding: 40px 20px; text-align: center;
+      font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.08em;
+      color: var(--text-soft);
+    }
+    .offline b { color: var(--magenta); display: block; margin-bottom: 8px; letter-spacing: 0.16em; }
+
+    @media (max-width: 900px) { .globals { grid-template-columns: repeat(2, 1fr); } .treemap { height: 480px; } }
+    @media (max-width: 620px) { .treemap { height: 420px; } }
+    @media (prefers-reduced-motion: reduce) { .ticker { animation: none; } .tile { animation: none; } }
+  </style>
+</head>
+<body>
+
+<header class="masthead page">
+  <a class="brand" href="index.html">
+    <span class="brand-name">ЖУРНАЛ<span class="cursor">_</span></span>
+    <span class="mono brand-sub">крипта // ИИ // биохакинг</span>
+  </a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="rubrika.html">Крипта</a>
+    <a href="rubrika.html">ИИ</a>
+    <a href="rubrika.html">Биохакинг</a>
+    <a class="is-active" href="puls.html">Пульс</a>
+    <a href="podshivka.html">Подшивка</a>
+    <a href="poisk.html">Поиск</a>
+    <a class="nav-user" href="kabinet.html">Андрей</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <div class="pulse-head">
+    <h1 class="pulse-title">Пульс рынка <span class="dot">●</span></h1>
+    <span class="mono" id="updated">ЗАГРУЗКА…</span>
+  </div>
+
+  <!-- Бегущая лента -->
+  <div class="ticker-wrap" aria-hidden="true"><div class="ticker" id="ticker"></div></div>
+
+  <!-- Сводка -->
+  <div class="globals" id="globals"></div>
+
+  <!-- Живая карта: размер = капитализация, цвет = 24ч -->
+  <section class="map-panel panel" aria-label="Карта рынка">
+    <div class="map-head">
+      <span class="market-title">КАРТА РЫНКА // <span class="live">LIVE</span></span>
+      <span class="mono">размер = капитализация · свечение = изменение за 24ч</span>
+    </div>
+    <div class="treemap" id="treemap"></div>
+  </section>
+
+  <!-- Наш индекс из Центра -->
+  <aside class="market panel berg" aria-label="Индекс BERG">
+    <div class="market-head">
+      <span class="market-title">BERG INDEX // <span class="live">LIVE</span></span>
+      <span class="mono" id="berg-src">данные: Центр SYNERGYS</span>
+    </div>
+    <div class="market-row" id="berg-row"><span class="mono">ЗАГРУЗКА…</span></div>
+  </aside>
+
+  <p class="mono src-note">Данные: CoinGecko (рынок) + Центр SYNERGYS (индекс). Обновление раз в минуту.
+    Нет связи с источником — раздел честно молчит, выдуманных цифр здесь нет.</p>
+
+</main>
+
+<footer class="footer">
+  <div class="page footer-inner">
+    <span class="mono">© 2026 МЕДИА-ЦЕНТР SYNERGYS // ДАННЫЕ: ЦЕНТР</span>
+    <nav class="footer-nav mono" aria-label="Служебные ссылки">
+      <a href="ob-izdanii.html">ОБ ИЗДАНИИ</a> · <a href="#">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+// ПУЛЬС: живые данные CoinGecko + Центра. Ванильный JS, без библиотек.
+// Честность: любой сбой источника => секция показывает «нет данных», не рисует старое как новое.
+var CG = 'https://api.coingecko.com/api/v3';
+
+function fmtUsd(n) {
+  if (n >= 1e12) return '$' + (n / 1e12).toFixed(2) + ' трлн';
+  if (n >= 1e9) return '$' + (n / 1e9).toFixed(1) + ' млрд';
+  if (n >= 1e6) return '$' + (n / 1e6).toFixed(1) + ' млн';
+  return '$' + Math.round(n).toLocaleString('ru-RU');
+}
+function fmtPx(p) {
+  if (p >= 1000) return '$' + Math.round(p).toLocaleString('en-US');
+  if (p >= 1) return '$' + p.toFixed(2);
+  return '$' + p.toPrecision(3);
+}
+function chgSpan(c) {
+  var cls = c >= 0 ? 'up' : 'down';
+  var sign = c >= 0 ? '▲' : '▼';
+  return '<span class="' + cls + '">' + sign + Math.abs(c).toFixed(1) + '%</span>';
+}
+function tileColor(c) {
+  var a = Math.min(Math.abs(c) / 8, 1); // насыщенность от силы движения
+  return c >= 0
+    ? 'rgba(0, 190, 130, ' + (0.25 + 0.55 * a) + ')'
+    : 'rgba(230, 40, 90, ' + (0.25 + 0.55 * a) + ')';
+}
+
+// Бинарная мозаика: делим список на две части с ~равной капитализацией
+function layoutMap(items, x, y, w, h, out) {
+  if (!items.length) return;
+  if (items.length === 1) { out.push({ c: items[0], x: x, y: y, w: w, h: h }); return; }
+  var total = items.reduce(function (s, i) { return s + i.market_cap; }, 0);
+  var acc = 0, split = 1;
+  for (var i = 0; i < items.length - 1; i++) {
+    acc += items[i].market_cap;
+    if (acc >= total / 2) { split = i + 1; break; }
+  }
+  var a = items.slice(0, split), b = items.slice(split);
+  var share = a.reduce(function (s, i) { return s + i.market_cap; }, 0) / total;
+  if (w >= h) {
+    layoutMap(a, x, y, w * share, h, out);
+    layoutMap(b, x + w * share, y, w * (1 - share), h, out);
+  } else {
+    layoutMap(a, x, y, w, h * share, out);
+    layoutMap(b, x, y + h * share, w, h * (1 - share), out);
+  }
+}
+
+function renderMap(coins) {
+  var box = document.getElementById('treemap');
+  var rects = [];
+  layoutMap(coins, 0, 0, 100, 100, rects);
+  box.innerHTML = rects.map(function (r, i) {
+    var area = r.w * r.h;
+    var size = area > 6
+      ? '<span class="sym" style="font-size:' + Math.min(10 + area / 3, 26) + 'px">' + r.c.symbol.toUpperCase() + '</span>' +
+        '<span class="px" style="font-size:11px">' + fmtPx(r.c.current_price) + '</span>' +
+        '<span class="chg" style="font-size:11px">' + chgSpan(r.c.price_change_percentage_24h || 0) + '</span>'
+      : '<span class="sym">' + r.c.symbol.toUpperCase() + '</span>';
+    return '<div class="tile' + (area <= 2 ? ' t-xs' : '') + '" title="' + r.c.name + ' · ' + fmtUsd(r.c.market_cap) + '" style="left:' + r.x + '%;top:' + r.y + '%;width:' + r.w + '%;height:' + r.h + '%;background:' + tileColor(r.c.price_change_percentage_24h || 0) + ';animation-delay:' + (i * 18) + 'ms">' + size + '</div>';
+  }).join('');
+}
+
+function renderTicker(coins) {
+  var row = coins.map(function (c) {
+    return '<b>' + c.symbol.toUpperCase() + '</b> ' + fmtPx(c.current_price) + ' ' + chgSpan(c.price_change_percentage_24h || 0);
+  }).join('<span class="sep">◆</span>');
+  document.getElementById('ticker').innerHTML = row + '<span class="sep">◆</span>' + row; // дубль для бесшовной ленты
+}
+
+function renderGlobals(g) {
+  var mc = g.total_market_cap.usd, vol = g.total_volume.usd;
+  var chg = g.market_cap_change_percentage_24h_usd;
+  document.getElementById('globals').innerHTML =
+    '<div class="g-stat panel"><span class="v">' + fmtUsd(mc) + ' <em>' + chgSpan(chg) + '</em></span><span class="mono">КАПИТАЛИЗАЦИЯ РЫНКА</span></div>' +
+    '<div class="g-stat panel"><span class="v">' + fmtUsd(vol) + '</span><span class="mono">ОБЪЁМ 24Ч</span></div>' +
+    '<div class="g-stat panel"><span class="v">' + g.market_cap_percentage.btc.toFixed(1) + '%</span><span class="mono">ДОМИНАЦИЯ BTC</span></div>' +
+    '<div class="g-stat panel"><span class="v">' + g.active_cryptocurrencies.toLocaleString('ru-RU') + '</span><span class="mono">АКТИВНЫХ МОНЕТ</span></div>';
+}
+
+function offline(id, src) {
+  document.getElementById(id).innerHTML =
+    '<div class="offline" style="grid-column:1/-1"><b>НЕТ СВЯЗИ // ' + src + '</b>данных нет — и мы их не выдумываем</div>';
+}
+
+async function loadMarket() {
+  try {
+    var coins = await (await fetch(CG + '/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=40&page=1&price_change_percentage=24h')).json();
+    if (!Array.isArray(coins) || !coins.length) throw new Error('empty');
+    renderMap(coins.slice(0, 30));
+    renderTicker(coins.slice(0, 20));
+    document.getElementById('updated').textContent =
+      'ОБНОВЛЕНО ' + new Date().toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  } catch (e) {
+    offline('treemap', 'COINGECKO');
+    document.getElementById('ticker').innerHTML = '<span class="sep">нет связи с источником котировок</span>';
+    document.getElementById('updated').textContent = 'НЕТ СВЯЗИ';
+  }
+  try {
+    var g = (await (await fetch(CG + '/global')).json()).data;
+    renderGlobals(g);
+  } catch (e) { offline('globals', 'COINGECKO GLOBAL'); }
+}
+
+async function loadBerg() {
+  try {
+    var d = await (await fetch('https://admin.bergapp.com/api/public/index-signal')).json();
+    if (!d.ok || !d.index) throw new Error('not ok');
+    var series = (d.index.series || []).slice(-30).map(function (p) { return p.index; });
+    var spark = '';
+    if (series.length > 1) {
+      var min = Math.min.apply(null, series), max = Math.max.apply(null, series), span = (max - min) || 1;
+      var pts = series.map(function (v, i) {
+        return ((i / (series.length - 1)) * 220).toFixed(1) + ',' + (40 - ((v - min) / span) * 32).toFixed(1);
+      }).join(' ');
+      spark = '<svg class="spark" viewBox="0 0 220 44" width="220" height="44"><polyline points="' + pts +
+        '" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>';
+    }
+    document.getElementById('berg-row').innerHTML =
+      '<div class="stat"><span class="stat-value"><em>' + d.index.current.toFixed(3) + '</em></span><span class="mono">ИНДЕКС</span></div>' +
+      '<div class="stat"><span class="stat-value">' + d.index.apy + '%</span><span class="mono">ГОДОВАЯ ДОХОДНОСТЬ</span></div>' + spark;
+  } catch (e) {
+    document.getElementById('berg-row').innerHTML = '<span class="mono">НЕТ СВЯЗИ С ЦЕНТРОМ — данных нет</span>';
+  }
+}
+
+loadMarket();
+loadBerg();
+setInterval(loadMarket, 60000);
+setInterval(loadBerg, 60000);
+</script>
+
+</body>
+</html>

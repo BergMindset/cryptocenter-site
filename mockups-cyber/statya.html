@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Одно слово за раз: как на самом деле работает языковая модель — ЖУРНАЛ</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="masthead page">
+  <a class="brand" href="index.html">
+    <span class="brand-name">ЖУРНАЛ<span class="cursor">_</span></span>
+    <span class="mono brand-sub">крипта // ИИ // биохакинг</span>
+  </a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="rubrika.html">Крипта</a>
+    <a class="is-active" href="rubrika.html">ИИ</a>
+    <a href="rubrika.html">Биохакинг</a>
+    <a href="puls.html">Пульс</a>
+    <a href="podshivka.html">Подшивка</a>
+    <a href="poisk.html">Поиск</a>
+    <a class="nav-user" href="kabinet.html">Андрей</a>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="article-layout">
+
+    <aside class="toc" aria-label="Оглавление">
+      <p class="toc-title">В этой статье</p>
+      <ol>
+        <li><a href="#tokeny">Токены — алфавит модели</a></li>
+        <li><a href="#um">Откуда берётся «ум»</a></li>
+        <li><a href="#chitatelyu">Что следует читателю</a></li>
+      </ol>
+    </aside>
+
+    <article>
+      <header class="article-head">
+        <a class="tag tag--ai" href="rubrika.html">ИИ</a>
+        <h1 class="article-title">Одно слово за раз: как на самом деле работает языковая модель</h1>
+        <p class="article-lead">Никакой магии — большая языковая модель делает единственную вещь: предсказывает следующий фрагмент текста. Разбираем, как из этой скромной операции получаются переводы, код и связные ответы.</p>
+        <div class="article-meta-row">
+          <span class="mono">РЕДАКЦИЯ // <time datetime="2026-07-02">2026-07-02</time> // 4 МИН ЧТЕНИЯ</span>
+          <button class="btn" id="bookmark" type="button">+ В закладки</button>
+        </div>
+      </header>
+
+      <div class="cover article-cover cover--ai" role="img" aria-label=""></div>
+
+      <div class="article-body body-text">
+        <p>Спросите языковую модель, сколько будет два плюс два, — она ответит «четыре». Но внутри не происходит ни сложения, ни «понимания» арифметики в привычном смысле. Модель решает одну-единственную задачу: по данному тексту оценить вероятность каждого возможного продолжения — и выбрать одно из наиболее вероятных. Потом ещё одно. И ещё.</p>
+
+        <h2 id="tokeny">Токены — алфавит модели</h2>
+        <p>Модель не видит ни букв, ни слов. Текст сначала режется на <strong>токены</strong> — куски, которые встречаются в языке достаточно часто: целые слова, части слов, знаки препинания. Русское «электростанция» может развалиться на три-четыре токена, английское «the» — почти всегда один.</p>
+        <p>На выходе — снова числа: по одному на каждый токен словаря. Их превращают в вероятности, и из верхушки распределения выбирается продолжение:</p>
+
+        <pre><code># суть выходного слоя модели — в три строки
+logits = model(context)          # оценка каждого токена словаря
+probs = softmax(logits)          # оценки -> вероятности (в сумме 1)
+next_token = sample(probs)       # выбор продолжения из верхушки</code></pre>
+
+        <p>Параметр «температура» управляет именно последним шагом: низкая температура заставляет модель брать самый вероятный токен (предсказуемо, суховато), высокая — чаще рисковать (живее, но легче соврать).</p>
+
+        <h2 id="um">Откуда тогда берётся «ум»</h2>
+        <p>Кажется, что предсказатель следующего слова — это автозаполнение-переросток. Фокус в масштабе: чтобы хорошо предсказывать продолжение любого человеческого текста, модели приходится выучить очень многое о мире — грамматику, факты, стиль, логические связи, структуру кода.</p>
+
+        <blockquote>
+          <p>Модель никогда не «решает задачу». Она порождает текст, который статистически похож на решение задачи. Удивительно то, как часто этого достаточно.</p>
+        </blockquote>
+
+        <p>Механизм, который сделал это возможным, называется <strong>вниманием</strong>: на каждом шаге модель взвешивает, какие из предыдущих токенов важны для предсказания следующего.</p>
+
+        <h2 id="chitatelyu">Что из этого следует читателю</h2>
+        <ul>
+          <li>Модель не различает «знаю» и «звучит правдоподобно» — проверка фактов остаётся на человеке.</li>
+          <li>Она не учится в разговоре: параметры заморожены, «память» — это текст, который ей показывают заново.</li>
+          <li>Чем точнее сформулирована задача, тем меньше пространства для фантазий.</li>
+        </ul>
+
+        <hr>
+
+        <p>Понимание этой механики — лучшая прививка и от восторга «оно разумно!», и от скепсиса «это просто попугай». Это новый тип инструмента, у которого стоит знать устройство.</p>
+      </div>
+
+      <div class="tags-row">
+        <a class="tag tag--ai" href="poisk.html?q=LLM">LLM</a>
+        <a class="tag tag--ai" href="poisk.html?q=нейросети">нейросети</a>
+        <a class="tag tag--ai" href="poisk.html?q=токены">токены</a>
+      </div>
+
+      <!-- Листание номера -->
+      <nav class="pager" aria-label="Листать">
+        <a class="panel is-hoverable prev" href="statya.html">
+          <span class="mono dir">← ПРЕДЫДУЩАЯ</span>
+          <strong>Почему ИИ уверенно ошибается: природа галлюцинаций</strong>
+        </a>
+        <a class="panel is-hoverable next" href="statya.html">
+          <span class="mono dir">СЛЕДУЮЩАЯ →</span>
+          <strong>HRV: что на самом деле измеряет вариабельность сердечного ритма</strong>
+        </a>
+      </nav>
+
+      <!-- Сигналы: письма читателей, один уровень ответов, без лайков и аватарок -->
+      <section class="comments" aria-label="Сигналы читателей">
+        <h2 class="comments-title">СИГНАЛЫ // <span class="count" id="signal-count">3</span></h2>
+
+        <div id="signal-list">
+          <article class="comment panel">
+            <div class="comment-head">
+              <span class="comment-author">Мария К.</span>
+              <span class="mono">2026-07-03 09:41</span>
+            </div>
+            <p class="comment-body">Наконец-то объяснение температуры без мистики. Правильно понимаю, что «0» — это всегда один и тот же ответ на один и тот же вопрос?</p>
+          </article>
+
+          <article class="comment panel comment--reply">
+            <div class="comment-head">
+              <span class="comment-author">Редакция</span>
+              <span class="badge-editorial">РЕДАКЦИЯ</span>
+              <span class="mono">2026-07-03 12:07</span>
+            </div>
+            <p class="comment-body">Почти: при нулевой температуре модель всегда берёт самый вероятный токен, поэтому ответы становятся почти детерминированными. «Почти» — потому что на результат влияет и контекст, который вы подаёте.</p>
+          </article>
+
+          <article class="comment panel">
+            <div class="comment-head">
+              <span class="comment-author">Сергей Л.</span>
+              <span class="mono">2026-07-05 21:15</span>
+            </div>
+            <p class="comment-body">Пример с «электростанцией» на токены — лучший из всех, что видел. Ждём разбор контекстных окон.</p>
+          </article>
+        </div>
+
+        <form class="comment-form" id="signal-form">
+          <textarea id="signal-text" placeholder="Ваш сигнал: вопрос, поправка, наблюдение…" aria-label="Текст сигнала"></textarea>
+          <button class="btn" type="submit">Отправить сигнал</button>
+          <p class="mono form-note">Сигналы читает редакция перед публикацией. В макете — демо без сервера.</p>
+        </form>
+      </section>
+
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="page footer-inner">
+    <span class="mono">© 2026 МЕДИА-ЦЕНТР SYNERGYS // ДАННЫЕ: ЦЕНТР</span>
+    <nav class="footer-nav mono" aria-label="Служебные ссылки">
+      <a href="ob-izdanii.html">ОБ ИЗДАНИИ</a> · <a href="#">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+// ДЕМО-механика макета. Настоящие закладки и сигналы требуют сервера (backend media-center).
+
+// Прогресс чтения
+var bar = document.getElementById('progress');
+addEventListener('scroll', function () {
+  var h = document.documentElement;
+  var max = h.scrollHeight - h.clientHeight;
+  bar.style.width = (max > 0 ? (h.scrollTop / max) * 100 : 0) + '%';
+}, { passive: true });
+
+// Активный раздел в оглавлении: последний заголовок выше трети экрана
+var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+var sections = tocLinks.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+function updateToc() {
+  var line = window.scrollY + window.innerHeight * 0.3;
+  var current = -1;
+  sections.forEach(function (s, i) {
+    if (s && s.offsetTop <= line) current = i;
+  });
+  tocLinks.forEach(function (a, i) { a.classList.toggle('is-active', i === current); });
+}
+addEventListener('scroll', updateToc, { passive: true });
+updateToc();
+
+// Закладка (localStorage — только для демо)
+var bm = document.getElementById('bookmark');
+var KEY = 'demo-bookmark-llm';
+function paintBm() { bm.textContent = localStorage.getItem(KEY) ? '✓ В закладках' : '+ В закладки'; }
+bm.addEventListener('click', function () {
+  localStorage.getItem(KEY) ? localStorage.removeItem(KEY) : localStorage.setItem(KEY, '1');
+  paintBm();
+});
+paintBm();
+
+// Отправка сигнала (добавляется только на этой странице, без сервера)
+document.getElementById('signal-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var ta = document.getElementById('signal-text');
+  var text = ta.value.trim();
+  if (!text) return;
+  var el = document.createElement('article');
+  el.className = 'comment panel';
+  el.innerHTML = '<div class="comment-head"><span class="comment-author">Андрей</span>' +
+    '<span class="mono">только что // на модерации</span></div>';
+  var p = document.createElement('p');
+  p.className = 'comment-body';
+  p.textContent = text;
+  el.appendChild(p);
+  document.getElementById('signal-list').appendChild(el);
+  var c = document.getElementById('signal-count');
+  c.textContent = String(Number(c.textContent) + 1);
+  ta.value = '';
+});
+</script>
+
+</body>
+</html>

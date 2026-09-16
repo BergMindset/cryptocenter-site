@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Одно слово за раз: как на самом деле работает языковая модель — Журнал</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead page">
+  <a class="brand" href="index.html">
+    <span class="brand-name">Журнал</span>
+    <span class="meta">крипта · ИИ · биохакинг</span>
+  </a>
+  <nav class="nav" aria-label="Рубрики">
+    <a href="rubrika.html">Крипта</a>
+    <a class="is-active" href="rubrika.html">ИИ</a>
+    <a href="rubrika.html">Биохакинг</a>
+    <a class="nav-dim" href="poisk.html">Поиск</a>
+  </nav>
+</header>
+
+<main class="page">
+  <article>
+
+    <header class="article-head">
+      <a class="rubric-label" href="rubrika.html">ИИ</a>
+      <h1 class="article-title">Одно слово за раз: как на самом деле работает языковая модель</h1>
+      <p class="article-lead">Никакой магии — большая языковая модель делает единственную вещь: предсказывает следующий фрагмент текста. Разбираем, как из этой скромной операции получаются переводы, код и связные ответы.</p>
+      <p class="meta">Редакция · <time datetime="2026-07-02">2 июля 2026</time> · 4 мин чтения</p>
+    </header>
+
+    <div class="cover article-cover" role="img" aria-label=""></div>
+
+    <div class="article-body">
+      <p>Спросите языковую модель, сколько будет два плюс два, — она ответит «четыре». Но внутри не происходит ни сложения, ни «понимания» арифметики в привычном смысле. Модель решает одну-единственную задачу: по данному тексту оценить вероятность каждого возможного продолжения — и выбрать одно из наиболее вероятных. Потом ещё одно. И ещё.</p>
+
+      <h2>Токены — алфавит модели</h2>
+      <p>Модель не видит ни букв, ни слов. Текст сначала режется на <strong>токены</strong> — куски, которые встречаются в языке достаточно часто: целые слова, части слов, знаки препинания. Русское «электростанция» может развалиться на три-четыре токена, английское «the» — почти всегда один.</p>
+      <p>На выходе — снова числа: по одному на каждый токен словаря. Их превращают в вероятности, и из верхушки распределения выбирается продолжение:</p>
+
+      <pre><code># суть выходного слоя модели — в три строки
+logits = model(context)          # оценка каждого токена словаря
+probs = softmax(logits)          # оценки -> вероятности (в сумме 1)
+next_token = sample(probs)       # выбор продолжения из верхушки</code></pre>
+
+      <p>Параметр «температура» управляет именно последним шагом: низкая температура заставляет модель брать самый вероятный токен (предсказуемо, суховато), высокая — чаще рисковать (живее, но легче соврать).</p>
+
+      <h2>Откуда тогда берётся «ум»</h2>
+      <p>Кажется, что предсказатель следующего слова — это автозаполнение-переросток. Фокус в масштабе: чтобы хорошо предсказывать продолжение любого человеческого текста, модели приходится выучить очень многое о мире.</p>
+
+      <blockquote>
+        <p>Модель никогда не «решает задачу». Она порождает текст, который статистически похож на решение задачи. Удивительно то, как часто этого достаточно.</p>
+      </blockquote>
+
+      <h3>Что из этого следует читателю</h3>
+      <ul>
+        <li>Модель не различает «знаю» и «звучит правдоподобно» — проверка фактов остаётся на человеке.</li>
+        <li>Она не учится в разговоре: параметры заморожены, «память» — это текст, который ей показывают заново.</li>
+        <li>Чем точнее сформулирована задача, тем меньше пространства для фантазий.</li>
+      </ul>
+
+      <hr>
+
+      <p>Понимание этой механики — лучшая прививка и от восторга «оно разумно!», и от скепсиса «это просто попугай». Это ни то ни другое: это новый тип инструмента, у которого стоит знать устройство.</p>
+    </div>
+
+    <ul class="tags meta" aria-label="Теги">
+      <li><a href="poisk.html">LLM</a></li>
+      <li><a href="poisk.html">нейросети</a></li>
+      <li><a href="poisk.html">токены</a></li>
+      <li><a href="poisk.html">машинное обучение</a></li>
+    </ul>
+
+    <section class="related" aria-label="Читайте также">
+      <h2>Читайте также</h2>
+      <div class="grid">
+        <article class="card">
+          <a class="cover" href="statya.html" aria-hidden="true" tabindex="-1"></a>
+          <a class="rubric-label" href="rubrika.html">ИИ</a>
+          <h3><a href="statya.html">Почему ИИ уверенно ошибается: природа галлюцинаций</a></h3>
+          <p class="meta">Редакция · 20 июня 2026 · 3 мин чтения</p>
+        </article>
+        <article class="card">
+          <a class="cover" href="statya.html" aria-hidden="true" tabindex="-1"></a>
+          <a class="rubric-label" href="rubrika.html">Биохакинг</a>
+          <h3><a href="statya.html">Сон — главный ноотроп: что наука знает о восстановлении мозга</a></h3>
+          <p class="meta">Редакция · 25 июня 2026 · 4 мин чтения</p>
+        </article>
+        <article class="card">
+          <a class="cover" href="statya.html" aria-hidden="true" tabindex="-1"></a>
+          <a class="rubric-label" href="rubrika.html">Крипта</a>
+          <h3><a href="statya.html">Ликвидность простыми словами: почему в DeFi она решает всё</a></h3>
+          <p class="meta">Редакция · 28 июня 2026 · 4 мин чтения</p>
+        </article>
+      </div>
+    </section>
+
+  </article>
+</main>
+
+<footer class="footer">
+  <div class="page footer-inner">
+    <p class="meta">© 2026 Медиа-центр SYNERGYS</p>
+    <nav class="footer-nav meta" aria-label="Служебные ссылки">
+      <a href="ob-izdanii.html">Об издании</a>
+      <a href="#">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

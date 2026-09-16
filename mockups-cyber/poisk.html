@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поиск — ЖУРНАЛ</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead page">
+  <a class="brand" href="index.html">
+    <span class="brand-name">ЖУРНАЛ<span class="cursor">_</span></span>
+    <span class="mono brand-sub">крипта // ИИ // биохакинг</span>
+  </a>
+  <nav class="nav" aria-label="Разделы">
+    <a href="rubrika.html">Крипта</a>
+    <a href="rubrika.html">ИИ</a>
+    <a href="rubrika.html">Биохакинг</a>
+    <a href="puls.html">Пульс</a>
+    <a href="podshivka.html">Подшивка</a>
+    <a class="is-active" href="poisk.html">Поиск</a>
+    <a class="nav-user" href="kabinet.html">Андрей</a>
+  </nav>
+</header>
+
+<main class="page">
+
+  <h1 class="search-title">Поиск<span class="cursor" style="color: var(--cyan)">_</span></h1>
+
+  <form class="search-form" role="search" onsubmit="return false">
+    <input id="q" class="search-input" type="search" placeholder="> заголовок, тема или тег…" aria-label="Поиск" autofocus>
+    <p class="mono search-hint">Ищем по заголовкам, лидам и тегам — прямо в браузере, без внешних сервисов.</p>
+  </form>
+
+  <p id="count" class="mono search-count" hidden></p>
+  <section id="results" class="grid" aria-label="Результаты поиска" hidden></section>
+
+<script>
+// Клиентский поиск по 6 материалам. Ванильный JS, без библиотек.
+var DOCS = [
+  { t: '«Не твои ключи — не твои монеты»: как на самом деле работает самостоятельное хранение',
+    lead: 'Криптовалюта не лежит в кошельке — она записана в блокчейне. Кошелёк хранит только ключ.',
+    r: 'Крипта', cls: 'crypto', tags: 'кошельки безопасность seed-фраза', d: '2026-07-08 // 4 МИН' },
+  { t: 'Ликвидность простыми словами: почему в DeFi она решает всё',
+    lead: 'Пулы ликвидности заменили биржевой стакан математической формулой.',
+    r: 'Крипта', cls: 'crypto', tags: 'DeFi ликвидность AMM пулы доходность', d: '2026-06-28 // 4 МИН' },
+  { t: 'Одно слово за раз: как на самом деле работает языковая модель',
+    lead: 'Никакой магии — модель делает единственную вещь: предсказывает следующий фрагмент текста.',
+    r: 'ИИ', cls: 'ai', tags: 'LLM нейросети токены машинное обучение модель', d: '2026-07-02 // 4 МИН' },
+  { t: 'Почему ИИ уверенно ошибается: природа галлюцинаций',
+    lead: 'Модель может выдумать несуществующую книгу — безупречно уверенным тоном. Это не сбой.',
+    r: 'ИИ', cls: 'ai', tags: 'LLM галлюцинации надёжность модель', d: '2026-06-20 // 3 МИН' },
+  { t: 'Сон — главный ноотроп: что наука знает о восстановлении мозга',
+    lead: 'Единственный инструмент с безусловно доказанным эффектом раздают бесплатно каждую ночь.',
+    r: 'Биохакинг', cls: 'bio', tags: 'сон мозг восстановление привычки', d: '2026-06-25 // 4 МИН' },
+  { t: 'HRV: что на самом деле измеряет вариабельность сердечного ритма',
+    lead: 'Метрика всех фитнес-колец — одна из немногих честных цифр в биохакинге.',
+    r: 'Биохакинг', cls: 'bio', tags: 'HRV метрики нервная система трекеры', d: '2026-07-05 // 3 МИН' }
+];
+
+function plural(n) {
+  var m10 = n % 10, m100 = n % 100;
+  if (m10 === 1 && m100 !== 11) return n + ' МАТЕРИАЛ';
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return n + ' МАТЕРИАЛА';
+  return n + ' МАТЕРИАЛОВ';
+}
+
+var input = document.getElementById('q');
+var count = document.getElementById('count');
+var results = document.getElementById('results');
+
+function render() {
+  var q = input.value.trim().toLowerCase();
+  if (q.length < 2) { count.hidden = true; results.hidden = true; return; }
+  var found = DOCS.filter(function (d) {
+    return (d.t + ' ' + d.lead + ' ' + d.tags).toLowerCase().indexOf(q) !== -1;
+  });
+  count.hidden = false;
+  count.textContent = found.length ? '> ' + plural(found.length) : '> ПО ЗАПРОСУ «' + input.value.trim().toUpperCase() + '» НИЧЕГО НЕ НАШЛОСЬ';
+  results.hidden = !found.length;
+  results.innerHTML = found.map(function (d) {
+    return '<a class="card panel is-hoverable card--' + d.cls + '" href="statya.html">' +
+      '<div class="cover cover--' + d.cls + '"></div>' +
+      '<div class="card-body">' +
+      '<span class="tag tag--' + d.cls + '">' + d.r + '</span>' +
+      '<h3>' + d.t + '</h3>' +
+      '<p class="card-lead">' + d.lead + '</p>' +
+      '<span class="mono">' + d.d + '</span>' +
+      '</div></a>';
+  }).join('');
+}
+
+input.addEventListener('input', render);
+var initial = new URLSearchParams(location.search).get('q');
+if (initial) { input.value = initial; render(); }
+</script>
+
+</main>
+
+<footer class="footer">
+  <div class="page footer-inner">
+    <span class="mono">© 2026 МЕДИА-ЦЕНТР SYNERGYS // ДАННЫЕ: ЦЕНТР</span>
+    <nav class="footer-nav mono" aria-label="Служебные ссылки">
+      <a href="ob-izdanii.html">ОБ ИЗДАНИИ</a> · <a href="#">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
