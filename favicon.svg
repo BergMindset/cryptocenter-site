@@ -1,11 +1,7 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="yldxG" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6846F4"/>
-      <stop offset="1" stop-color="#3B82F6"/>
-    </linearGradient>
-  </defs>
-  <rect width="180" height="180" rx="42" fill="url(#yldxG)"/>
-  <path d="M52 52 L90 98 L128 52" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M90 98 L90 136" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+  <rect width="40" height="40" rx="10" fill="#151920" />
+  <g transform="translate(2 2)">
+    <path d="M27 9a12.75 12.75 0 1 0 0 18" stroke="#edf0f4" stroke-width="3.5" stroke-linecap="round" />
+    <circle cx="18" cy="18" r="2.75" fill="#a4adba" />
+  </g>
 </svg>

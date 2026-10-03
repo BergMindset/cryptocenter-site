@@ -1,0 +1,2435 @@
+{
+  "version": 1,
+  "capturedAt": "2026-09-30T13:30:45.978Z",
+  "sourceAsOf": null,
+  "sourceUrl": "https://markets.defiguru.ai/api/markets",
+  "partial": true,
+  "sourceScope": "Выборка: до 30 рынков на категорию. Не весь Polymarket.",
+  "markets": [
+    {
+      "id": "665374",
+      "question": "Will the U.S. invade Iran before 2027?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.135
+        },
+        {
+          "name": "No",
+          "price": 0.865
+        }
+      ],
+      "volume24h": 232984.59322,
+      "liquidity": 785147.3745,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the United States commences a military offensive intended to establish control over any portion of Iran by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, land de facto controlled by Iran or the United States as of November 4, 2025 12:00 PM ET, will be considered the sovereign territory of that country.\n\nThe resolution source for this market will be a consensus of credible sources.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "567621",
+      "question": "Will China invade Taiwan by end of 2026?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0315
+        },
+        {
+          "name": "No",
+          "price": 0.9685
+        }
+      ],
+      "volume24h": 106702.403492,
+      "liquidity": 610581.60498,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nTerritory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify. \n\nThe resolution source for this market will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1163699",
+      "question": "Clarity Act (H.R.3633) signed into law in 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0495
+        },
+        {
+          "name": "No",
+          "price": 0.9505
+        }
+      ],
+      "volume24h": 88620.332038,
+      "liquidity": 327753.56369,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Digital Asset Market Clarity Act of 2025 (H.R.3633) is passed by both chambers of the U.S. Congress and signed into law by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source is Congress.gov’s legislation tracker (https://www.congress.gov/bill/119th-congress/house-bill/3633) and other official information from the government of the United States, however other credible reporting may be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3205508",
+      "question": "Gemini 4.0 released by September 30, 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.263
+        },
+        {
+          "name": "No",
+          "price": 0.737
+        }
+      ],
+      "volume24h": 61654.641059999994,
+      "liquidity": 3408.47246,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if Google's Gemini 4.0 is made available to the general public by the listed date. Otherwise, this market will resolve to \"No\".\n\nFor this market to resolve to \"Yes,\" Gemini 4.0 must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be clearly defined and publicly announced by Google as being accessible to the general public.\n\nIf a qualifying model is made publicly accessible and explicitly labeled with the relevant version name within the company’s official website, this will qualify as “publicly announced”. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public under the rules will not qualify.\n\nGemini 4.0 refers to a product explicitly named Gemini 4.0 or one that is recognized as a successor to Gemini 3 similar to the progression from Gemini 2.0 to Gemini 3. Products labeled as Gemini 3.0 Flash, Gemini 2.5, or similar will not count for this market's resolution.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559677",
+      "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 46494.02,
+      "liquidity": 2808642.96204,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4052413",
+      "question": "Will Bitcoin reach $100,000 in September?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 31752.101953,
+      "liquidity": 114698.32665,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2026-10-01T04:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4824012",
+      "question": "Will the US announce a diesel export ban by September 30?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0055
+        },
+        {
+          "name": "No",
+          "price": 0.9945
+        }
+      ],
+      "volume24h": 30263.668744,
+      "liquidity": 63772.28489,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the President of the United States, the White House, a Cabinet member, an agency or department legally authorized to take such action, or an authorized representative thereof, publicly and officially announces a ban on the export of diesel from the United States between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor purposes of this market, a \"ban on the export of diesel\" means a prohibition on the exportation of diesel fuel (distillate fuel oil) from the United States, whether imposed on all exports or on substantially all exports. A restriction, quota, tariff, licensing requirement, destination-specific ban, or other limitation short of an export prohibition will not qualify unless it operates as a general prohibition on diesel exports. A prohibition may qualify whether it is temporary or permanent, provided the announcement clearly communicates a prohibition on diesel exports.\n\nA qualifying announcement must be a declarative statement of the U.S. government's present implementation of, previously-unannounced prior implementation of, or definitive decision to implement a ban on the export of diesel.\n\nA qualifying announcement must clearly and unambiguously identify a ban on the export of diesel. Statements that merely allude to, reference, or describe such a ban, without clearly communicating it, do not qualify. The announcement need not use specific terminology or reference the ban by name, provided the substance of a prohibition on diesel exports is clearly and unambiguously communicated.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nAn announcement by the U.S. government that it accepts or agrees to an agreement, framework, or roadmap that includes a commitment to ban diesel exports qualifies only if (i) all parties whose acceptance is required for the agreement to take effect have accepted the agreement, or (ii) the announcement independently communicates the ban as a present and decided position of the United States, not contingent on acceptance by any other party.\n\nThe following do not qualify as official announcements:\nAnonymous, unattributed, or leaked statements not confirmed as official;\nStatements by persons not authorized to speak for the U.S. government;\nThird-party speculation, analysis, or predictions that the United States will announce or implement such a ban;\nSatirical, fabricated, hacked, or impersonated communications;\nStatements that describe a prospective, contingent, probable, or conditional implementation of such a ban rather than announcing a present and decided position.\n\nOnce a qualifying announcement is made, this market will resolve to \"Yes\" regardless of whether it is later reversed, or whether a ban on diesel exports is ever actually implemented.\n\nResolution will be based on official information from the U.S. government or its authorized representatives; however, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3212185",
+      "question": "Will NVIDIA be the largest company in the world by market cap on September 30?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.9975
+        },
+        {
+          "name": "No",
+          "price": 0.0025
+        }
+      ],
+      "volume24h": 27951.101937,
+      "liquidity": 10825.76279,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on September 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3008494",
+      "question": "Will Anthropic have the best AI model at the end of September 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.995
+        },
+        {
+          "name": "No",
+          "price": 0.005
+        }
+      ],
+      "volume24h": 27921.226389999996,
+      "liquidity": 15839.84796,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-09-30T16:00:00.000Z",
+      "description": "This market will resolve according to the company which owns the model which has the highest arena rank based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on September 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "resolutionSource": "https://arena.ai/leaderboard/text/overall-no-style-control",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1057916",
+      "question": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.007
+        },
+        {
+          "name": "No",
+          "price": 0.993
+        }
+      ],
+      "volume24h": 26609.8,
+      "liquidity": 112027.35742,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4824013",
+      "question": "Will the US announce a diesel export ban by October 31?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.195
+        },
+        {
+          "name": "No",
+          "price": 0.805
+        }
+      ],
+      "volume24h": 23288.583197999997,
+      "liquidity": 27544.3954,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2026-11-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the President of the United States, the White House, a Cabinet member, an agency or department legally authorized to take such action, or an authorized representative thereof, publicly and officially announces a ban on the export of diesel from the United States between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor purposes of this market, a \"ban on the export of diesel\" means a prohibition on the exportation of diesel fuel (distillate fuel oil) from the United States, whether imposed on all exports or on substantially all exports. A restriction, quota, tariff, licensing requirement, destination-specific ban, or other limitation short of an export prohibition will not qualify unless it operates as a general prohibition on diesel exports. A prohibition may qualify whether it is temporary or permanent, provided the announcement clearly communicates a prohibition on diesel exports.\n\nA qualifying announcement must be a declarative statement of the U.S. government's present implementation of, previously-unannounced prior implementation of, or definitive decision to implement a ban on the export of diesel.\n\nA qualifying announcement must clearly and unambiguously identify a ban on the export of diesel. Statements that merely allude to, reference, or describe such a ban, without clearly communicating it, do not qualify. The announcement need not use specific terminology or reference the ban by name, provided the substance of a prohibition on diesel exports is clearly and unambiguously communicated.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nAn announcement by the U.S. government that it accepts or agrees to an agreement, framework, or roadmap that includes a commitment to ban diesel exports qualifies only if (i) all parties whose acceptance is required for the agreement to take effect have accepted the agreement, or (ii) the announcement independently communicates the ban as a present and decided position of the United States, not contingent on acceptance by any other party.\n\nThe following do not qualify as official announcements:\nAnonymous, unattributed, or leaked statements not confirmed as official;\nStatements by persons not authorized to speak for the U.S. government;\nThird-party speculation, analysis, or predictions that the United States will announce or implement such a ban;\nSatirical, fabricated, hacked, or impersonated communications;\nStatements that describe a prospective, contingent, probable, or conditional implementation of such a ban rather than announcing a present and decided position.\n\nOnce a qualifying announcement is made, this market will resolve to \"Yes\" regardless of whether it is later reversed, or whether a ban on diesel exports is ever actually implemented.\n\nResolution will be based on official information from the U.S. government or its authorized representatives; however, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3008499",
+      "question": "Will OpenAI have the best AI model at the end of September 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.001
+        },
+        {
+          "name": "No",
+          "price": 0.999
+        }
+      ],
+      "volume24h": 19190.9675,
+      "liquidity": 51007.77582,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-09-30T16:00:00.000Z",
+      "description": "This market will resolve according to the company which owns the model which has the highest arena rank based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on September 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "resolutionSource": "https://arena.ai/leaderboard/text/overall-no-style-control",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3212187",
+      "question": "Will Apple be the largest company in the world by market cap on September 30?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 17448.528,
+      "liquidity": 46557.17054,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on September 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701493",
+      "question": "Will Bitcoin reach $130,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0595
+        },
+        {
+          "name": "No",
+          "price": 0.9405
+        }
+      ],
+      "volume24h": 16435.691522,
+      "liquidity": 119984.31334,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701501",
+      "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.095
+        },
+        {
+          "name": "No",
+          "price": 0.905
+        }
+      ],
+      "volume24h": 15278.9034,
+      "liquidity": 210848.5675,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "904737",
+      "question": "Extended FDV above $300M one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.345
+        },
+        {
+          "name": "No",
+          "price": 0.655
+        }
+      ],
+      "volume24h": 14446.032241,
+      "liquidity": 28443.6363,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Extended's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\nThe FDV will be determined using the total token supply multiplied by the token price.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Extended (https://x.com/extendedapp) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "703257",
+      "question": "Will the US confirm that aliens exist before 2027?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0325
+        },
+        {
+          "name": "No",
+          "price": 0.9675
+        }
+      ],
+      "volume24h": 11156.302569000001,
+      "liquidity": 1028670.75834,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the President of the United States, any member of the Cabinet of the United States, any member of the Joint Chiefs of Staff, or any US federal agency definitively states that extraterrestrial life or technology exists by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the government of the United States, however a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "948957",
+      "question": "Bitcoin all time high by September 30, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 8226.57,
+      "liquidity": 361118.17505,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT between 16 December '25 10:30 and 11:59PM ET on the date specified in the title has a final “High” price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with “1m” and “Candles” selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701495",
+      "question": "Will Bitcoin reach $110,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.18
+        },
+        {
+          "name": "No",
+          "price": 0.82
+        }
+      ],
+      "volume24h": 7460.965032000001,
+      "liquidity": 93654.7446,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701494",
+      "question": "Will Bitcoin reach $120,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.105
+        },
+        {
+          "name": "No",
+          "price": 0.895
+        }
+      ],
+      "volume24h": 6010.552800999998,
+      "liquidity": 124348.7197,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1345531",
+      "question": "Will Bitcoin reach $90,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.74
+        },
+        {
+          "name": "No",
+          "price": 0.26
+        }
+      ],
+      "volume24h": 5730.033374,
+      "liquidity": 73518.2912,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between the creation of this market and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701496",
+      "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.375
+        },
+        {
+          "name": "No",
+          "price": 0.625
+        }
+      ],
+      "volume24h": 5533.451859,
+      "liquidity": 97277.8797,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1339768",
+      "question": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0365
+        },
+        {
+          "name": "No",
+          "price": 0.9635
+        }
+      ],
+      "volume24h": 5516.150000000001,
+      "liquidity": 134611.14705,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676746",
+      "question": "Will SpaceX be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0035
+        },
+        {
+          "name": "No",
+          "price": 0.9965
+        }
+      ],
+      "volume24h": 5096.353665,
+      "liquidity": 176711.09169,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701503",
+      "question": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0255
+        },
+        {
+          "name": "No",
+          "price": 0.9745
+        }
+      ],
+      "volume24h": 4555.154076,
+      "liquidity": 161328.97475,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "920401",
+      "question": "Will Apple release a foldable iPhone before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.9985
+        },
+        {
+          "name": "No",
+          "price": 0.0015
+        }
+      ],
+      "volume24h": 4315.09,
+      "liquidity": 21832.20765,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-12-31T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if Apple officially releases a foldable iPhone by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nIn order to be considered released, the product must be available for purchase by the general public within the specified timeframe. An announcement or unveiling alone is not sufficient.\n\nA qualifying release of a foldable smartphone by Apple will count even if it is not explicitly branded an iPhone.\n\nThe primary resolution source for this market will be official statements from Apple. However, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1393068",
+      "question": "Will Bitcoin reach $500,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0045
+        },
+        {
+          "name": "No",
+          "price": 0.9955
+        }
+      ],
+      "volume24h": 2960.240965,
+      "liquidity": 165757.32005,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1339767",
+      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.065
+        },
+        {
+          "name": "No",
+          "price": 0.935
+        }
+      ],
+      "volume24h": 2579.865794,
+      "liquidity": 233906.676,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676743",
+      "question": "Will Tesla be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 2381.1530000000002,
+      "liquidity": 325588.57094,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676741",
+      "question": "Will Apple be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.1435
+        },
+        {
+          "name": "No",
+          "price": 0.8565
+        }
+      ],
+      "volume24h": 2363.059246,
+      "liquidity": 181307.82337,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676739",
+      "question": "Will NVIDIA be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.795
+        },
+        {
+          "name": "No",
+          "price": 0.205
+        }
+      ],
+      "volume24h": 2307.487491,
+      "liquidity": 126667.5291,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676745",
+      "question": "Will Amazon be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 2200,
+      "liquidity": 216145.72874,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701502",
+      "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0465
+        },
+        {
+          "name": "No",
+          "price": 0.9535
+        }
+      ],
+      "volume24h": 2024.5712660000002,
+      "liquidity": 328751.02131,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Low\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559679",
+      "question": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0065
+        },
+        {
+          "name": "No",
+          "price": 0.9935
+        }
+      ],
+      "volume24h": 1927.075665,
+      "liquidity": 891465.52449,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1162139",
+      "question": "FDA approves Retatrutide this year?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.031
+        },
+        {
+          "name": "No",
+          "price": 0.969
+        }
+      ],
+      "volume24h": 1855.38,
+      "liquidity": 3160.60639,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "Retatrutide is a triple agonist hormone/peptide drug developed by Eli Lilly and currently in trial to treat obesity, fatty liver disease, type-2 diabetes, knee osteoarthritis, and more.\n\nThis market will resolve to \"Yes\" if the U.S. Food and Drug Administration (FDA) grants a full or conditional approval for Eli Lilly’s for a drug product whose active ingredient is Eli Lilly’s retatrutide (including any brand name or identifier such as LY3437943) for any use between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No.\"\n\nAn approval is defined as:\nFor new drugs: FDA issuance of an approval letter for a New Drug Application (NDA) or Biologics License Application (BLA)\nFor already-marketed drugs seeking new indications: FDA approval of a supplemental NDA (sNDA) or supplemental BLA (sBLA) for the specific indication referenced\nFor generic drugs: FDA approval of an Abbreviated New Drug Application (ANDA)\nFor biosimilars: FDA approval of a 351(k) application\n\nThe following constitute qualifying approvals:\nStandard approval (traditional approval based on clinical benefit), Accelerated approval (based on surrogate endpoints), Approval with Risk Evaluation and Mitigation Strategy (REMS), Approval with restricted distribution or indication limitations, except compassionate use/expanded access programs\n\nThe following do not constitute qualifying approvals:\nApprovable letters that require additional actions before approval\nTentative approvals pending patent or exclusivity expiration\nFDA requests for additional information or studies\nExtension of Prescription Drug User Fee Amendments dates\nApproval for compassionate use or expanded access programs only\nApproval only for export or for use outside the United States\nEmergency Use Authorization (EUA) without full approval\nComplete Response Letters (CRLs) indicating the application cannot be approved in its current form\n\nIf the listed drug is approved within this market’s timeframe, the market will resolve to \"Yes,\" regardless of potential Advisory Committee votes against approval or later withdrawal of approval.\n\nConditional approvals may include post-marketing requirements or commitments and still qualify.\n\nThe primary resolution source will be official information from the FDA; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "668591",
+      "question": "GTA 6 launch postponed again?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.06
+        },
+        {
+          "name": "No",
+          "price": 0.94
+        }
+      ],
+      "volume24h": 1648.6728580000001,
+      "liquidity": 36663.2822,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-11-20T04:59:00.000Z",
+      "description": "On November 6, 2025, Take-Two Interactive, the parent company of Rockstar Games, announced that the launch of Grand Theft Auto VI (GTA VI) would be postponed from its previously scheduled release date of May 26, 2026, to a new release date of November 19, 2026.\n\nThis market will resolve to \"Yes\" if by November 19, 2026, 11:59 PM ET, Rockstar Games or its parent company, Take-Two Interactive, officially announces that Grand Theft Auto VI will not be released by November 19, 2026, or if Grand Theft Auto VI is otherwise not released in the US by November 19, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive; however a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701552",
+      "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0645
+        },
+        {
+          "name": "No",
+          "price": 0.9355
+        }
+      ],
+      "volume24h": 1626.954731,
+      "liquidity": 152545.47165,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to “Yes” if any Binance 1-minute candle for Ethereum (ETH/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final “Low” price equal to or lower than the price specified in the title. Otherwise, this market will resolve to “No.”\n\nThe resolution source for this market is Binance, specifically the ETH/USDT “Low” prices available at:\nhttps://www.binance.com/en/trade/ETH_USDT\nwith the chart settings on “1m” (one-minute candles) selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676744",
+      "question": "Will Saudi Aramco be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 1545.4660000000001,
+      "liquidity": 212117.93145,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559671",
+      "question": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 1311.4409999999998,
+      "liquidity": 2626389.84984,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "573656",
+      "question": "Will Bitcoin hit $150k by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0255
+        },
+        {
+          "name": "No",
+          "price": 0.9745
+        }
+      ],
+      "volume24h": 1075.81,
+      "liquidity": 73021.01148,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) has a final \"High\" price equal to or greater than the price specified in the title by 11:59PM ET on the date specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559692",
+      "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 1045.5,
+      "liquidity": 2265353.16556,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559682",
+      "question": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0045
+        },
+        {
+          "name": "No",
+          "price": 0.9955
+        }
+      ],
+      "volume24h": 1008.106,
+      "liquidity": 1178181.58408,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561251",
+      "question": "Will LeBron James win the 2028 US Presidential Election?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 1000,
+      "liquidity": 2543713.7472,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2029) this market will resolve based on who is inaugurated.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559689",
+      "question": "Will Beto O’Rourke win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 1000,
+      "liquidity": 2822031.76963,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "618455",
+      "question": "Opensea FDV above $1B one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.12
+        },
+        {
+          "name": "No",
+          "price": 0.88
+        }
+      ],
+      "volume24h": 968.69,
+      "liquidity": 65026.4227,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Opensea's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Opensea doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559680",
+      "question": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 905.3,
+      "liquidity": 2510258.67757,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1144471",
+      "question": "Will Satoshi move any Bitcoin in 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0305
+        },
+        {
+          "name": "No",
+          "price": 0.9695
+        }
+      ],
+      "volume24h": 840.657743,
+      "liquidity": 78680.19108,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to “Yes” if any wallet labeled as belonging to Satoshi Nakamoto on Arkham’s Intel Explorer shows an “Outflow” or “Swaps” transaction at any time between January 9, 2026, 1:00 PM ET and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No.”\n\nThe resolution source for this market is Arkham’s Intel Explorer, specifically the entity page for Satoshi Nakamoto available at https://intel.arkm.com/explorer/entity/satoshi-nakamoto\n\nIf Arkham becomes permanently unavailable, this market will resolve based on a consensus of credible sources.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "618454",
+      "question": "Opensea FDV above $500M one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.176
+        },
+        {
+          "name": "No",
+          "price": 0.824
+        }
+      ],
+      "volume24h": 753.4399999999999,
+      "liquidity": 20280.67399,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Opensea's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Opensea doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701553",
+      "question": "Will Ethereum dip to $1,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.045
+        },
+        {
+          "name": "No",
+          "price": 0.955
+        }
+      ],
+      "volume24h": 706.82,
+      "liquidity": 109936.9846,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to “Yes” if any Binance 1-minute candle for Ethereum (ETH/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final “Low” price equal to or lower than the price specified in the title. Otherwise, this market will resolve to “No.”\n\nThe resolution source for this market is Binance, specifically the ETH/USDT “Low” prices available at:\nhttps://www.binance.com/en/trade/ETH_USDT\nwith the chart settings on “1m” (one-minute candles) selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1005344",
+      "question": "Puffpaw FDV above $100M one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.29
+        },
+        {
+          "name": "No",
+          "price": 0.71
+        }
+      ],
+      "volume24h": 701.4100000000001,
+      "liquidity": 21542.0376,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Puffpaw's governance token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\nThe FDV will be determined using the total token supply multiplied by the token price.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Puffpaw (https://www.puffpaw.xyz/) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561995",
+      "question": "Will Mike Pence win the 2028 Republican presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 660,
+      "liquidity": 1873663.27906,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Republican Party sources.\n\nAny replacement of the Republican nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561994",
+      "question": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": 516.72,
+      "liquidity": 2018252.3271,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Republican Party sources.\n\nAny replacement of the Republican nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1057883",
+      "question": "Will Bitcoin reach $250,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0065
+        },
+        {
+          "name": "No",
+          "price": 0.9935
+        }
+      ],
+      "volume24h": 411.974832,
+      "liquidity": 133516.60046,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "2724056",
+      "question": "Will Argentina dollarize by December 31, 2026?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.046
+        },
+        {
+          "name": "No",
+          "price": 0.954
+        }
+      ],
+      "volume24h": 391.32,
+      "liquidity": 3098.61569,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if Argentina begins to peg its currency to the United States dollar (USD), or adopts the United States dollar as official legal tender, between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nAn announcement that dollarization will begin will not be sufficient to resolve this market to \"Yes\" - for this market to resolve to \"Yes\", dollarization must have actually begun.\n\nNote: a peg does not need to be 1:1 to USD.\n\nThis market's resolution source will be a consensus of credible reporting indicating either of the listed scenarios have begun.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676742",
+      "question": "Will Alphabet be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.055
+        },
+        {
+          "name": "No",
+          "price": 0.945
+        }
+      ],
+      "volume24h": 373.41097999999994,
+      "liquidity": 160484.028,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559684",
+      "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.007
+        },
+        {
+          "name": "No",
+          "price": 0.993
+        }
+      ],
+      "volume24h": 350.555332,
+      "liquidity": 559862.51306,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "897019",
+      "question": "Will Paramount close Warner Bros acquisition?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.9445
+        },
+        {
+          "name": "No",
+          "price": 0.0555
+        }
+      ],
+      "volume24h": 332.263415,
+      "liquidity": 1770.34511,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": null,
+      "description": "This market will resolve according to the first entity that acquires control of Warner Bros. Discovery's studios and streaming businesses by June 30, 2027, 11:59 PM ET. \n\nTransactions that involve only Warner Bros. Discovery's linear television networks, news channels, or other non-studio, non-streaming assets, without also transferring control of its studios and streaming businesses, will not qualify.\n\nAnnouncements of non-finalized arrangements — including, the currently announced Netflix agreement to acquire Warner Bros. Discovery’s studios and streaming businesses — will not qualify.\n\nIf no entity acquires control of Warner Bros. Discovery's studios and streaming businesses by June 30, 2027, 11:59 PM ET, this market will resolve to \"None by June 30 2027\". \n\nResolution will be based on by a consensus of reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694939",
+      "question": "Will Ubisoft be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0255
+        },
+        {
+          "name": "No",
+          "price": 0.9745
+        }
+      ],
+      "volume24h": 320.895523,
+      "liquidity": 4399.45288,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "676740",
+      "question": "Will Microsoft be the largest company in the world by market cap on December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0045
+        },
+        {
+          "name": "No",
+          "price": 0.9955
+        }
+      ],
+      "volume24h": 182,
+      "liquidity": 109608.32156,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to the largest company in the world by market cap on December 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "948958",
+      "question": "Bitcoin all time high by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.073
+        },
+        {
+          "name": "No",
+          "price": 0.927
+        }
+      ],
+      "volume24h": 156.18591999999998,
+      "liquidity": 57921.58698,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT between 16 December '25 10:30 and 11:59PM ET on the date specified in the title has a final “High” price that is higher than any previous Binance 1 minute candle's \"High\" price on any prior date. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with “1m” and “Candles” selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other sources or spot markets.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "700396",
+      "question": "Will Perplexity AI be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.055
+        },
+        {
+          "name": "No",
+          "price": 0.945
+        }
+      ],
+      "volume24h": 146.56,
+      "liquidity": 6457.4482,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701554",
+      "question": "Will Ethereum dip to $800 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0285
+        },
+        {
+          "name": "No",
+          "price": 0.9715
+        }
+      ],
+      "volume24h": 121.96,
+      "liquidity": 106221.53089,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to “Yes” if any Binance 1-minute candle for Ethereum (ETH/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final “Low” price equal to or lower than the price specified in the title. Otherwise, this market will resolve to “No.”\n\nThe resolution source for this market is Binance, specifically the ETH/USDT “Low” prices available at:\nhttps://www.binance.com/en/trade/ETH_USDT\nwith the chart settings on “1m” (one-minute candles) selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "691340",
+      "question": "AI bubble burst in 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.086
+        },
+        {
+          "name": "No",
+          "price": 0.914
+        }
+      ],
+      "volume24h": 107.31289699999999,
+      "liquidity": 54023.56855,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the AI industry experiences an industry downturn by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, the AI industry will be considered to have experienced an industry downturn once at least three of the following events have occurred within 90 days of this market's specified timeframe:\n- NVIDIA Corporation (NVDA) closing stock price is down 50% from its all-time high.\n- iShares PHLX Semiconductor ETF (SOXX) closing stock price is down 40% from its all-time high.\n- OpenAI, Inc. or Anthropic PBC declares bankruptcy.\n- OpenAI, Inc. is acquired.\n- H100 rental price falls to $1.00 or lower for five consecutive days, as shown on the SiliconData Silicon Index at:\nhttps://www.silicondata.com/products/silicon-index.\n- Major AI Hardware Supplier Collapse: Taiwan Semiconductor Manufacturing Company Limited (TSM), ASML Holding N.V. (ASML), Broadcom Inc. (AVGO), Arista Networks, Inc. (ANET), or Super Micro Computer, Inc. (SMCI), closing stock price is down 50% from its all-time high.\n\nThis market may resolve immediately once three conditions have been met within 90 days of the specified timeframe.\n\nThis market will not resolve to \"Yes\" until three conditions have been met, regardless of reporting of an industry downturn or similar claims.\n\nThe primary resolution source will be official information from the respective companies and listing exchanges; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1927582",
+      "question": "Will Satoshi's identity be revealed by December 31?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.023
+        },
+        {
+          "name": "No",
+          "price": 0.977
+        }
+      ],
+      "volume24h": 103.2,
+      "liquidity": 20941.30397,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to 'Yes' if the identity of Satoshi Nakamoto, the pseudonymous creator or creators of Bitcoin, is definitively proven between market creation and the listed date, 11:59 PM ET. Otherwise, this market will resolve to 'No'.\n\nThe resolution source for this market will be definitive evidence confirming the identity of Satoshi Nakamoto, such as a transfer from one of the original Satoshi wallets. However, a credible consensus of reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561993",
+      "question": "Will John Thune win the 2028 Republican presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 102,
+      "liquidity": 2127283.21501,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Republican Party sources.\n\nAny replacement of the Republican nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "701486",
+      "question": "Will Bitcoin reach $200,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0115
+        },
+        {
+          "name": "No",
+          "price": 0.9885
+        }
+      ],
+      "volume24h": 100,
+      "liquidity": 122548.83093,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1131170",
+      "question": "Human moon landing in 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0125
+        },
+        {
+          "name": "No",
+          "price": 0.9875
+        }
+      ],
+      "volume24h": 65.590222,
+      "liquidity": 20227.24422,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if any human-crewed mission lands on the moon between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA touchdown of the spacecraft with humans aboard will be sufficient to resolve this market to \"Yes\", regardless of technical complications.\n\nThe resolution source will be a consensus of credible reporting.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "700395",
+      "question": "Will Lovable be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.033
+        },
+        {
+          "name": "No",
+          "price": 0.967
+        }
+      ],
+      "volume24h": 54.02,
+      "liquidity": 5748.38628,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559687",
+      "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 50.5,
+      "liquidity": 2888076.99058,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1393070",
+      "question": "Will Bitcoin reach $1,000,000 by December 31, 2026?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0025
+        },
+        {
+          "name": "No",
+          "price": 0.9975
+        }
+      ],
+      "volume24h": 32,
+      "liquidity": 294368.10975,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"High\" price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559688",
+      "question": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 29.919999999999998,
+      "liquidity": 2569054.95165,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "700398",
+      "question": "Will OpenAI be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0185
+        },
+        {
+          "name": "No",
+          "price": 0.9815
+        }
+      ],
+      "volume24h": 25.572940000000003,
+      "liquidity": 22292.62402,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694936",
+      "question": "Will Nebius Group be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0235
+        },
+        {
+          "name": "No",
+          "price": 0.9765
+        }
+      ],
+      "volume24h": 19.997237999999996,
+      "liquidity": 11409.489,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "3008495",
+      "question": "Will Meta have the best AI model at the end of September 2026?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 17.81,
+      "liquidity": 72285.42599,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2026-09-30T16:00:00.000Z",
+      "description": "This market will resolve according to the company which owns the model which has the highest arena rank based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on September 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "resolutionSource": "https://arena.ai/leaderboard/text/overall-no-style-control",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559683",
+      "question": "Will George Clooney win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": 17,
+      "liquidity": 2706945.00091,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694937",
+      "question": "Will BP be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0315
+        },
+        {
+          "name": "No",
+          "price": 0.9685
+        }
+      ],
+      "volume24h": 16,
+      "liquidity": 12414.76281,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "665531",
+      "question": "Metamask FDV above $700M one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.073
+        },
+        {
+          "name": "No",
+          "price": 0.927
+        }
+      ],
+      "volume24h": 11.36,
+      "liquidity": 20054.02962,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Metamask's token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Metamask doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "2063134",
+      "question": "Will Adanech Abiebie be the next Prime Minister of Ethiopia?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.002
+        },
+        {
+          "name": "No",
+          "price": 0.998
+        }
+      ],
+      "volume24h": 10.05,
+      "liquidity": 24002.98504,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2026-06-02T03:59:00.000Z",
+      "description": "General elections are scheduled to be held in Ethiopia on June 1, 2026.\n\nThis market will resolve to the next individual who officially assumes the office of Prime Minister of Ethiopia following the 2026 General elections.\n\nTo count for resolution, the individual must be officially appointed and sworn in as Prime Minister of Ethiopia. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Ethiopia; however, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4641856",
+      "question": "Will gas be below $3.75/gallon in any state on September 30?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.125
+        },
+        {
+          "name": "No",
+          "price": 0.875
+        }
+      ],
+      "volume24h": 3.06,
+      "liquidity": 72.8825,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if on the specified date at 11:59PM ET, the average regular gas price for any US state is below $3.75 per gallon using unrounded figures. Otherwise, the market will resolve to \"No\".\n\nWashington D.C. will not be considered a state despite its inclusion in the data provided by the resolution source.\n\nThis market will resolve based on the gas prices provided by AAA for the specified date, once the update for that date is made available. In the event that this source does not present the relevant information by the specified date, 11:59 PM ET, the market will remain open for two full calendar day for it to update. If it remains unavailable, this market will resolve to \"No\". \n\nThe resolution source for this market will be State gas prices published by the the American Automobile Association (AAA) at https://gasprices.aaa.com/.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694935",
+      "question": "Will Zoom Video Communications be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0605
+        },
+        {
+          "name": "No",
+          "price": 0.9395
+        }
+      ],
+      "volume24h": 0.01,
+      "liquidity": 6460.38061,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "1005343",
+      "question": "Puffpaw FDV above $50M one day after launch?",
+      "category": "Крипто",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.275
+        },
+        {
+          "name": "No",
+          "price": 0.725
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 15992.7234,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.495Z",
+      "endDate": "2027-01-01T05:00:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the Fully Diluted Valuation of Puffpaw's governance token is greater than the value specified in the title 1 day after launch. Otherwise, the market will resolve to \"No.\"\n\nThe token must be actively, publicly transferable and tradable to be considered a launch.\n\nThe FDV will be determined using the total token supply multiplied by the token price.\n\n\"1 day after launch\" is defined as 4:00 PM ET on the calendar day following launch. The resolution source for this market is the most liquid price source available. If Puffpaw (https://www.puffpaw.xyz/) doesn't launch a token by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "2063135",
+      "question": "Will Gedion Timothewos be the next Prime Minister of Ethiopia?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.004
+        },
+        {
+          "name": "No",
+          "price": 0.996
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 21179.66969,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2026-06-02T03:59:00.000Z",
+      "description": "General elections are scheduled to be held in Ethiopia on June 1, 2026.\n\nThis market will resolve to the next individual who officially assumes the office of Prime Minister of Ethiopia following the 2026 General elections.\n\nTo count for resolution, the individual must be officially appointed and sworn in as Prime Minister of Ethiopia. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Ethiopia; however, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561247",
+      "question": "Will Tim Walz win the 2028 US Presidential Election?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2389596.28007,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2029) this market will resolve based on who is inaugurated.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561986",
+      "question": "Will Byron Donalds win the 2028 Republican presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0015
+        },
+        {
+          "name": "No",
+          "price": 0.9985
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2047567.48377,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Republican Party sources.\n\nAny replacement of the Republican nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559681",
+      "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2906125.04753,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559666",
+      "question": "Will Tim Walz win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2779868.15596,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559690",
+      "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2739110.07011,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "2063133",
+      "question": "Will Shimelis Abdisa be the next Prime Minister of Ethiopia?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.005
+        },
+        {
+          "name": "No",
+          "price": 0.995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 20247.42327,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2026-06-02T03:59:00.000Z",
+      "description": "General elections are scheduled to be held in Ethiopia on June 1, 2026.\n\nThis market will resolve to the next individual who officially assumes the office of Prime Minister of Ethiopia following the 2026 General elections.\n\nTo count for resolution, the individual must be officially appointed and sworn in as Prime Minister of Ethiopia. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Ethiopia; however, a consensus of credible reporting may also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559685",
+      "question": "Will MrBeast win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2811586.05746,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561254",
+      "question": "Will Kim Kardashian win the 2028 US Presidential Election?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2115271.83301,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2029) this market will resolve based on who is inaugurated.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "559678",
+      "question": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2809481.06071,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of the democratic nominee before election day will not change the resolution of the market.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "561248",
+      "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+      "category": "Политика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.0005
+        },
+        {
+          "name": "No",
+          "price": 0.9995
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 1036200.80568,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.554Z",
+      "endDate": "2028-11-08T04:59:00.000Z",
+      "description": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race for the same candidate by the inauguration date (January 20, 2029) this market will resolve based on who is inaugurated.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4641857",
+      "question": "Will gas be below $3.75/gallon in any state on October 31?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.31
+        },
+        {
+          "name": "No",
+          "price": 0.69
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 114.7968,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2026-11-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if on the specified date at 11:59PM ET, the average regular gas price for any US state is below $3.75 per gallon using unrounded figures. Otherwise, the market will resolve to \"No\".\n\nWashington D.C. will not be considered a state despite its inclusion in the data provided by the resolution source.\n\nThis market will resolve based on the gas prices provided by AAA for the specified date, once the update for that date is made available. In the event that this source does not present the relevant information by the specified date, 11:59 PM ET, the market will remain open for two full calendar day for it to update. If it remains unavailable, this market will resolve to \"No\". \n\nThe resolution source for this market will be State gas prices published by the the American Automobile Association (AAA) at https://gasprices.aaa.com/.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4178328",
+      "question": "US announces yen intervention by December 31, 2026?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.395
+        },
+        {
+          "name": "No",
+          "price": 0.605
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 89.221,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the United States government announces that it has intervened in the foreign exchange market to support the Japanese yen between market creation and the listed date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying announcement must establish that (i) the United States purchased Japanese yen in the foreign exchange market and (ii) the purchase was undertaken as an exchange-rate intervention, whether stated explicitly or clearly established through context. The intervention may be unilateral or coordinated with other governments, but the United States must participate directly.\n\nAny qualifying announcement made within this market's time frame will count, provided the underlying yen purchase occurred after July 31, 2026.\n\nStatements of concern, readiness, or intent to intervene; swap lines or other currency arrangements absent a qualifying yen purchase; and intervention by other governments without US participation will not qualify.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nResolution will be based on official statements from the US Treasury, Federal Reserve, White House, or their official representatives acting in an official capacity.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "4178326",
+      "question": "US announces yen intervention by September 30, 2026?",
+      "category": "Экономика",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.375
+        },
+        {
+          "name": "No",
+          "price": 0.625
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 11.622,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.481Z",
+      "endDate": "2026-10-01T03:59:00.000Z",
+      "description": "This market will resolve to \"Yes\" if the United States government announces that it has intervened in the foreign exchange market to support the Japanese yen between market creation and the listed date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying announcement must establish that (i) the United States purchased Japanese yen in the foreign exchange market and (ii) the purchase was undertaken as an exchange-rate intervention, whether stated explicitly or clearly established through context. The intervention may be unilateral or coordinated with other governments, but the United States must participate directly.\n\nAny qualifying announcement made within this market's time frame will count, provided the underlying yen purchase occurred after July 31, 2026.\n\nStatements of concern, readiness, or intent to intervene; swap lines or other currency arrangements absent a qualifying yen purchase; and intervention by other governments without US participation will not qualify.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nResolution will be based on official statements from the US Treasury, Federal Reserve, White House, or their official representatives acting in an official capacity.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694938",
+      "question": "Will Viking Therapeutics be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.135
+        },
+        {
+          "name": "No",
+          "price": 0.865
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 1455.2299,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    },
+    {
+      "id": "694940",
+      "question": "Will GitLab be acquired before 2027?",
+      "category": "Технологии",
+      "outcomes": [
+        {
+          "name": "Yes",
+          "price": 0.058
+        },
+        {
+          "name": "No",
+          "price": 0.942
+        }
+      ],
+      "volume24h": null,
+      "liquidity": 2623.19259,
+      "sourceUpdatedAt": "2026-09-30T13:29:31.350Z",
+      "receivedAt": "2026-09-30T13:30:45.571Z",
+      "endDate": "2027-01-01T04:59:00.000Z",
+      "description": "This market will resolve to “Yes” if credible reporting confirms that any entity enters into an agreement to acquire the listed company by December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nMergers where the listed company is subsumed by another entity will count toward a \"Yes\" resolution.\n\nAn announced agreement between the listed company and an acquiring entity will qualify for a “Yes” resolution, regardless of whether the acquisition is ultimately completed.\n\nThe primary resolution source for this market is official information from the listed company and/or its leadership; however, a consensus of credible reporting will also be used.",
+      "resolutionSource": "",
+      "active": true,
+      "closed": false,
+      "acceptingOrders": true
+    }
+  ]
+}

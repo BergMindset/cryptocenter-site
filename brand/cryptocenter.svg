@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" role="img" aria-labelledby="title">
+  <title id="title">CryptoCenter Finance</title>
+  <style>
+    .outline { stroke: #222831; }
+    .core { fill: #858c98; }
+    @media (prefers-color-scheme: dark) {
+      .outline { stroke: #edf0f4; }
+      .core { fill: #a4adba; }
+    }
+  </style>
+  <path class="outline" d="M27 9a12.75 12.75 0 1 0 0 18" stroke-width="3.5" stroke-linecap="round" />
+  <circle class="core" cx="18" cy="18" r="2.75" />
+</svg>
